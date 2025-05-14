@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!-- <bean name="person" class="com.rays.test.Person">
+
+		<property name="name" value="sandeep"></property>
+
+	</bean> -->
+
+	<bean name="person" class="com.rays.test.Person">
+	<constructor-arg value="sandeep"></constructor-arg>
+</bean>
+</beans>
